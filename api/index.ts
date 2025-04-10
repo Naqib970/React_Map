@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_KEY = "AIzaSyCR_a_GvqZ1EzG4HVdSHQ5bOU8vowPaDwI";
+const API_KEY = "";
 
 export const fetchPlaces = (query:string) => {
     return axios.get(
